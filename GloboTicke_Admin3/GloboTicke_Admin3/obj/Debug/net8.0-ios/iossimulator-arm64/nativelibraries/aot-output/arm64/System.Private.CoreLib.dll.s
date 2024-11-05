@@ -51819,7 +51819,7 @@ runtime_version:
 .section __TEXT, __const
 	.align 2
 assembly_guid:
-	.asciz "10334D5E-964A-4AC1-8EC6-8AD836627B8A"
+	.asciz "A882A98E-DCA2-47B2-9CE3-8421C52BD205"
 .section __TEXT, __const
 	.align 2
 assembly_name:
@@ -51916,7 +51916,7 @@ _mono_aot_file_info:
 	.long 0,0,0,296,296,296,296,296
 	.long 296,0,0,0,0,0,0,24
 	.long 24,60,24,0,24
-	.byte 90,241,150,249,14,70,238,148,141,46,2,116,80,209,167,227
+	.byte 178,124,75,60,252,205,109,172,73,215,129,155,110,255,245,213
 	.globl _mono_aot_module_System_Private_CoreLib_info
 	.align 3
 _mono_aot_module_System_Private_CoreLib_info:

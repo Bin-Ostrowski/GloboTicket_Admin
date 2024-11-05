@@ -119,7 +119,8 @@
                             Margin="0,10,0,0"
                             Text="Cancel event"
                             Command="{Binding CancelEventCommand}"
-                            IsVisible="{Binding IsEnabled, Source={RelativeSource Self}}"/>
+                            IsVisible="{Binding IsEnabled, Source={RelativeSource Self}}" />
+                        <!-- RelativeSource Self = ability to bind one property of one element (EventDetailViewModel) to another property on the same element-->
                     </VerticalStackLayout>
                 </VerticalStackLayout>
             </Grid>
