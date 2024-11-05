@@ -13,5 +13,10 @@ public partial class EventDetailPage : ContentPage
     {
         InitializeComponent();
         BindingContext = new EventDetailViewModel();
+        
+        // can bind this way but is better to set bindings in xmal
+        // LabelEventName.SetBinding(Label.TextProperty, nameof(EventDetailViewModel.Name),
+        //     BindingMode.OneWay);
+        // in EventDetailPage.xaml would need to add Name within Label. x:Name="LabelEventName"
     }
 }

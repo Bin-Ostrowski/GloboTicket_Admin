@@ -1,16 +1,154 @@
+using System.ComponentModel;
+using System.Runtime.CompilerServices;
+
 namespace GloboTicke_Admin3.ViewModels;
 
-public class EventDetailViewModel
+public class EventDetailViewModel : INotifyPropertyChanged
 {
-    public Guid Id { get; set; }
-    public string Name { get; set; } = default!;
-    public double Price { get; set; }
-    public string ImageUrl { get; set; }
-    public EventStatusEnum EventStatus { get; set; }
-    public DateTime Date { get; set; } = DateTime.Now;
-    public string Description { get; set; }
-    public List<string> Artists { get; set; } = new();
-    public CategoryViewModel Category { get; set; } = new();
+    private Guid _id;
+    private string _name = default!;
+    private double _price;
+    private string _imageUrl;
+    private EventStatusEnum _eventStatus;
+    private DateTime _date = DateTime.Now;
+    private string _description;
+    private List<string> _artists = new();
+    private CategoryViewModel _category = new();
+
+    public Guid Id
+    {
+        get => _id;
+        set
+        {
+            if (!value.Equals(_id))
+            {
+                _id = value;
+                OnPropertyChanged();
+            }
+        }
+    }
+
+    public string Name
+    {
+        get => _name;
+        set
+        {
+            if (!value.Equals(_name))
+            {
+                _name = value;
+                OnPropertyChanged();
+            }
+        }
+    }
+
+    public double Price
+    {
+        get => _price;
+        set
+        {
+            if (!value.Equals(_price))
+            {
+                _price = value;
+                OnPropertyChanged();
+            }
+        }
+    }
+
+    public string ImageUrl
+    {
+        get => _imageUrl;
+        set
+        {
+            if (!value.Equals(_imageUrl))
+            {
+                _imageUrl = value;
+                OnPropertyChanged();
+            }
+        }
+    }
+
+    public EventStatusEnum EventStatus
+    {
+        get => _eventStatus;
+        set
+        {
+            if (!value.Equals(_eventStatus))
+            {
+                _eventStatus = value;
+                OnPropertyChanged();
+            }
+        }
+    }
+
+    public DateTime Date
+    {
+        get => _date;
+        set
+        {
+            if (!value.Equals(_date))
+            {
+                _date = value;
+                OnPropertyChanged();
+            }
+        }
+    }
+
+    public string Description
+    {
+        get => _description;
+        set
+        {
+            if (!value.Equals(_description))
+            {
+                _description = value;
+                OnPropertyChanged();
+            }
+        }
+    }
+
+    public List<string> Artists
+    {
+        get => _artists;
+        set
+        {
+            if (!value.Equals(_artists))
+            {
+                _artists = value;
+                OnPropertyChanged();
+            }
+        }
+    }
+
+    public CategoryViewModel Category
+    {
+        get => _category;
+        set
+        {
+            if (!value.Equals(_category))
+            {
+                _category = value;
+                OnPropertyChanged();
+            }
+        }
+    }
+    
+    private bool _showLargerImage;
+
+    public bool ShowLargerImage
+    {
+        get => _showLargerImage;
+        set
+        {
+            if (!value.Equals(_showLargerImage))
+            {
+                _showLargerImage = value;
+                OnPropertyChanged();
+                OnPropertyChanged(nameof(ShowThumbnailImage));
+            }
+        }
+    }
+    
+    public bool ShowThumbnailImage => !ShowLargerImage;
 
     public EventDetailViewModel()
     {
@@ -28,4 +166,8 @@ public class EventDetailViewModel
             Name = "Concert"
         };
     }
+    
+    public event PropertyChangedEventHandler? PropertyChanged;
+    public void OnPropertyChanged([CallerMemberName]string? propertyName = null) 
+        => PropertyChanged?.Invoke(this, new PropertyChangedEventArgs(propertyName));
 }

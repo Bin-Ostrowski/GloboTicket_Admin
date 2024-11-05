@@ -11,7 +11,7 @@
                 <VerticalStackLayout Padding="10">
                     <!-- Name -->
                     <Label
-                        Text ="{Binding Name, Mode=OneWay}"
+                        Text="{Binding Name, Mode=OneWay}"
                         Style="{StaticResource TitleLabelStyle}" />
 
                     <HorizontalStackLayout>
@@ -23,8 +23,8 @@
                         IsVisible="{Binding ShowThumbnailImage, Mode=OneWay}"
                         Source="{Binding ImageUrl}"
                         WidthRequest="100" />
-
-                    <Image 
+                    
+                    <Image
                         HorizontalOptions="Fill"
                         IsVisible="{Binding ShowLargerImage, Mode=OneWay}"
                         Source="{Binding ImageUrl}" />
@@ -73,7 +73,12 @@
                             <!--     Grid.Column="1" -->
                             <!--     Style="{StaticResource ValueLabelStyle}" -->
                             <!--     Text="{Binding EventStatus, Converter={StaticResource StatusEnumToTextConverter}}"/> -->
-
+                            <Label
+                                Grid.Row="2"
+                                Grid.Column="1"
+                                Style="{StaticResource ValueLabelStyle}"
+                                Text="{Binding EventStatus}"/>
+                            
                             <!-- Row 4 Date -->
                             <Label
                                 Grid.Row="3"
