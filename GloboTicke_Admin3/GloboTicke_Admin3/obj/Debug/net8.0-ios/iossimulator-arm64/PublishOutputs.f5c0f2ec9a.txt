@@ -34,6 +34,7 @@
 /Users/rostrowski/GitHub/GloboTicket_Admin/GloboTicke_Admin3/GloboTicke_Admin3/bin/Debug/net8.0-ios/iossimulator-arm64/publish/../GloboTicke_Admin3.app/zh-Hans/Microsoft.Maui.Controls.resources.dll
 /Users/rostrowski/GitHub/GloboTicket_Admin/GloboTicke_Admin3/GloboTicke_Admin3/bin/Debug/net8.0-ios/iossimulator-arm64/publish/../GloboTicke_Admin3.app/zh-Hant/Microsoft.Maui.Controls.resources.dll
 /Users/rostrowski/GitHub/GloboTicket_Admin/GloboTicke_Admin3/GloboTicke_Admin3/bin/Debug/net8.0-ios/iossimulator-arm64/publish/../GloboTicke_Admin3.app/runtimeconfig.bin
+/Users/rostrowski/GitHub/GloboTicket_Admin/GloboTicke_Admin3/GloboTicke_Admin3/bin/Debug/net8.0-ios/iossimulator-arm64/publish/../GloboTicke_Admin3.app/CommunityToolkit.Mvvm.dll
 /Users/rostrowski/GitHub/GloboTicket_Admin/GloboTicke_Admin3/GloboTicke_Admin3/bin/Debug/net8.0-ios/iossimulator-arm64/publish/../GloboTicke_Admin3.app/Microsoft.Extensions.Configuration.dll
 /Users/rostrowski/GitHub/GloboTicket_Admin/GloboTicke_Admin3/GloboTicke_Admin3/bin/Debug/net8.0-ios/iossimulator-arm64/publish/../GloboTicke_Admin3.app/Microsoft.Extensions.Configuration.Abstractions.dll
 /Users/rostrowski/GitHub/GloboTicket_Admin/GloboTicke_Admin3/GloboTicke_Admin3/bin/Debug/net8.0-ios/iossimulator-arm64/publish/../GloboTicke_Admin3.app/Microsoft.Extensions.DependencyInjection.dll

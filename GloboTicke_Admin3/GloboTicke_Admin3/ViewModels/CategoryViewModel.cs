@@ -1,39 +1,22 @@
 using System.ComponentModel;
 using System.Runtime.CompilerServices;
+using CommunityToolkit.Mvvm.ComponentModel;
 
 namespace GloboTicke_Admin3.ViewModels;
 
-public class CategoryViewModel : INotifyPropertyChanged
+public class CategoryViewModel : ObservableObject
 {
     private Guid _id;
     private string _name = default!;
     public Guid Id
     {
         get => _id;
-        set
-        {
-            if (!value.Equals(_id))
-            {
-                _id = value;
-                OnPropertyChanged();
-            }
-        }
+        set => SetProperty(ref _id, value);
     }
 
     public string Name
     {
         get => _name;
-        set
-        {
-            if (!value.Equals(_name))
-            {
-                _name = value;
-                OnPropertyChanged();
-            }
-        }
+        set => SetProperty(ref _name, value);
     }
-    public event PropertyChangedEventHandler? PropertyChanged;
-    public void OnPropertyChanged([CallerMemberName]string? propertyName = null) 
-        => PropertyChanged?.Invoke(this, new PropertyChangedEventArgs(propertyName));
-
 }

@@ -1,9 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "U5ApCc1tgxz1lnKfDwY04foY6GfS1YwfcMKmYEOkUxGN/ZAvZva7IYhQK1ek5YKU8KRC6560WtFBlMUHT34oKw==",
+  "dgSpecHash": "LcnduFg8aJ5pS0OOhXRVeWLkqUo2SoJjrnGMVFilsS6EieZN0b8qvDX/xfsz6wDSrd7VyYVAF6kMLO7HOyqJqA==",
   "success": true,
   "projectFilePath": "/Users/rostrowski/GitHub/GloboTicket_Admin/GloboTicke_Admin3/GloboTicke_Admin3/GloboTicke_Admin3.csproj",
   "expectedPackageFiles": [
+    "/Users/rostrowski/.nuget/packages/communitytoolkit.mvvm/8.3.2/communitytoolkit.mvvm.8.3.2.nupkg.sha512",
     "/Users/rostrowski/.nuget/packages/googlegson/2.10.1.4/googlegson.2.10.1.4.nupkg.sha512",
     "/Users/rostrowski/.nuget/packages/microsoft.extensions.configuration/8.0.0/microsoft.extensions.configuration.8.0.0.nupkg.sha512",
     "/Users/rostrowski/.nuget/packages/microsoft.extensions.configuration.abstractions/8.0.0/microsoft.extensions.configuration.abstractions.8.0.0.nupkg.sha512",
