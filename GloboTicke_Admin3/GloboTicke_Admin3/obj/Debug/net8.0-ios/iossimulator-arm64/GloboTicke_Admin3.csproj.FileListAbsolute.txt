@@ -294,6 +294,7 @@
 /Users/rostrowski/GitHub/GloboTicket_Admin/GloboTicke_Admin3/GloboTicke_Admin3/obj/Debug/net8.0-ios/iossimulator-arm64/GloboTicke_Admin3.AssemblyInfoInputs.cache
 /Users/rostrowski/GitHub/GloboTicket_Admin/GloboTicke_Admin3/GloboTicke_Admin3/obj/Debug/net8.0-ios/iossimulator-arm64/GloboTicke_Admin3.AssemblyInfo.cs
 /Users/rostrowski/GitHub/GloboTicket_Admin/GloboTicke_Admin3/GloboTicke_Admin3/obj/Debug/net8.0-ios/iossimulator-arm64/GloboTicke_Admin3.csproj.CoreCompileInputs.cache
+/Users/rostrowski/GitHub/GloboTicket_Admin/GloboTicke_Admin3/GloboTicke_Admin3/obj/Debug/net8.0-ios/iossimulator-arm64/GloboTicke_Admin3.sourcelink.json
 /Users/rostrowski/GitHub/GloboTicket_Admin/GloboTicke_Admin3/GloboTicke_Admin3/obj/Debug/net8.0-ios/iossimulator-arm64/XamlC.stamp
 /Users/rostrowski/GitHub/GloboTicket_Admin/GloboTicke_Admin3/GloboTicke_Admin3/obj/Debug/net8.0-ios/iossimulator-arm64/GloboTic.1172F5C8.Up2Date
 /Users/rostrowski/GitHub/GloboTicket_Admin/GloboTicke_Admin3/GloboTicke_Admin3/obj/Debug/net8.0-ios/iossimulator-arm64/GloboTicke_Admin3.dll
