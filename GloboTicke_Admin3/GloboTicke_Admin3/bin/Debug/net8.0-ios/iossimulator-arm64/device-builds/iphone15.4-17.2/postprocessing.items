@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <_PostProcessingItem Include="GloboTicke_Admin3.app/GloboTicke_Admin3">
+      <IsAppExtension>false</IsAppExtension>
+      <BCSymbolMapName>GloboTicke_Admin3.bcsymbolmap</BCSymbolMapName>
+      <NoDSymUtil>true</NoDSymUtil>
+      <dSYMSourcePathExists>false</dSYMSourcePathExists>
+      <NoSymbolStrip>true</NoSymbolStrip>
+      <dSYMInfoPlistRelativePath>GloboTicke_Admin3.app.dSYM\Contents\Info.plist</dSYMInfoPlistRelativePath>
+      <SymbolFile>/Users/rostrowski/GitHub/GloboTicket_Admin/GloboTicke_Admin3/GloboTicke_Admin3/obj/Debug/net8.0-ios/iossimulator-arm64/device-builds/iphone15.4-17.2/mtouch-symbols.list</SymbolFile>
+      <DSymName>GloboTicke_Admin3.app.dSYM</DSymName>
+      <SourceProjectPath>/Users/rostrowski/GitHub/GloboTicket_Admin/GloboTicke_Admin3/GloboTicke_Admin3</SourceProjectPath>
+      <IsXPCService></IsXPCService>
+    </_PostProcessingItem>
+  </ItemGroup>
+</Project>
