@@ -1,22 +1,12 @@
-using System.ComponentModel;
-using System.Runtime.CompilerServices;
 using CommunityToolkit.Mvvm.ComponentModel;
 
 namespace GloboTicke_Admin3.ViewModels;
 
-public class CategoryViewModel : ObservableObject
+public partial class CategoryViewModel : ObservableObject
 {
+    [ObservableProperty]
     private Guid _id;
+    
+    [ObservableProperty]
     private string _name = default!;
-    public Guid Id
-    {
-        get => _id;
-        set => SetProperty(ref _id, value);
-    }
-
-    public string Name
-    {
-        get => _name;
-        set => SetProperty(ref _name, value);
-    }
 }
