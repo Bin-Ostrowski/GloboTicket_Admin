@@ -4,9 +4,13 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="GloboTicke_Admin3.Views.EventDetailPage"
              xmlns:converters="clr-namespace:GloboTicke_Admin3.Converters"
+             xmlns:toolkit="http://schemas.microsoft.com/dotnet/2022/maui/toolkit"
              Title="EventDetailPage">
     <ContentPage.Resources>
         <converters:StatusEnumToTextConverter x:Key="StatusEnumToTextConverter"/>
+        <!-- <ResourceDictionary> -->
+        <!--     <toolkit:ListToStringConverter x:Key="ListToStringConverter" Separator="," /> -->
+        <!-- </ResourceDictionary> -->
     </ContentPage.Resources>
     
     <ContentPage.Content>
@@ -51,6 +55,7 @@
                                 Grid.Column="1"
                                 Style="{StaticResource ValueLabelStyle}" 
                                 Text="{Binding Artists}"/>
+                            <!-- , Converter={StaticResource ListToStringConverter} -->
 
                             <!-- Row 2 Price -->
                             <Label
