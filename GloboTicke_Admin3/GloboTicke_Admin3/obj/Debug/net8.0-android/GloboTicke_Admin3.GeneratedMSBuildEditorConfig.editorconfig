@@ -52,3 +52,9 @@ build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = GloboTicke_Admin3.Views.EventDetailPage.xaml
 build_metadata.AdditionalFiles.TargetPath = Views/EventDetailPage.xaml
 build_metadata.AdditionalFiles.RelativePath = Views/EventDetailPage.xaml
+
+[/Users/rostrowski/GitHub/GloboTicket_Admin/GloboTicke_Admin3/GloboTicke_Admin3/Views/EventOverviewPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = GloboTicke_Admin3.Views.EventOverviewPage.xaml
+build_metadata.AdditionalFiles.TargetPath = Views/EventOverviewPage.xaml
+build_metadata.AdditionalFiles.RelativePath = Views/EventOverviewPage.xaml
