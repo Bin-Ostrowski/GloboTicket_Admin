@@ -4,5 +4,132 @@
         <name>GloboTicke_Admin3</name>
     </assembly>
     <members>
+        <member name="T:GloboTicke_Admin3.ViewModels.CategoryViewModel">
+            <inheritdoc/>
+        </member>
+        <member name="P:GloboTicke_Admin3.ViewModels.CategoryViewModel.Id">
+            <inheritdoc cref="F:GloboTicke_Admin3.ViewModels.CategoryViewModel._id"/>
+        </member>
+        <member name="P:GloboTicke_Admin3.ViewModels.CategoryViewModel.Name">
+            <inheritdoc cref="F:GloboTicke_Admin3.ViewModels.CategoryViewModel._name"/>
+        </member>
+        <member name="T:GloboTicke_Admin3.ViewModels.EventDetailViewModel">
+            <inheritdoc/>
+            <inheritdoc/>
+        </member>
+        <member name="P:GloboTicke_Admin3.ViewModels.EventDetailViewModel.Id">
+            <inheritdoc cref="F:GloboTicke_Admin3.ViewModels.EventDetailViewModel._id"/>
+        </member>
+        <member name="P:GloboTicke_Admin3.ViewModels.EventDetailViewModel.Name">
+            <inheritdoc cref="F:GloboTicke_Admin3.ViewModels.EventDetailViewModel._name"/>
+        </member>
+        <member name="P:GloboTicke_Admin3.ViewModels.EventDetailViewModel.Price">
+            <inheritdoc cref="F:GloboTicke_Admin3.ViewModels.EventDetailViewModel._price"/>
+        </member>
+        <member name="P:GloboTicke_Admin3.ViewModels.EventDetailViewModel.ImageUrl">
+            <inheritdoc cref="F:GloboTicke_Admin3.ViewModels.EventDetailViewModel._imageUrl"/>
+        </member>
+        <member name="P:GloboTicke_Admin3.ViewModels.EventDetailViewModel.EventStatus">
+            <inheritdoc cref="F:GloboTicke_Admin3.ViewModels.EventDetailViewModel._eventStatus"/>
+        </member>
+        <member name="P:GloboTicke_Admin3.ViewModels.EventDetailViewModel.Date">
+            <inheritdoc cref="F:GloboTicke_Admin3.ViewModels.EventDetailViewModel._date"/>
+        </member>
+        <member name="P:GloboTicke_Admin3.ViewModels.EventDetailViewModel.Description">
+            <inheritdoc cref="F:GloboTicke_Admin3.ViewModels.EventDetailViewModel._description"/>
+        </member>
+        <member name="P:GloboTicke_Admin3.ViewModels.EventDetailViewModel.Artists">
+            <inheritdoc cref="F:GloboTicke_Admin3.ViewModels.EventDetailViewModel._artists"/>
+        </member>
+        <member name="P:GloboTicke_Admin3.ViewModels.EventDetailViewModel.Category">
+            <inheritdoc cref="F:GloboTicke_Admin3.ViewModels.EventDetailViewModel._category"/>
+        </member>
+        <member name="P:GloboTicke_Admin3.ViewModels.EventDetailViewModel.ShowLargerImage">
+            <inheritdoc cref="F:GloboTicke_Admin3.ViewModels.EventDetailViewModel._showLargerImage"/>
+        </member>
+        <member name="F:GloboTicke_Admin3.ViewModels.EventDetailViewModel.cancelEventCommand">
+            <summary>The backing field for <see cref="P:GloboTicke_Admin3.ViewModels.EventDetailViewModel.CancelEventCommand"/>.</summary>
+        </member>
+        <member name="P:GloboTicke_Admin3.ViewModels.EventDetailViewModel.CancelEventCommand">
+            <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IRelayCommand"/> instance wrapping <see cref="M:GloboTicke_Admin3.ViewModels.EventDetailViewModel.CancelEvent"/>.</summary>
+        </member>
+        <member name="T:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs">
+            <summary>
+            A helper type providing cached, reusable <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instances
+            for all properties generated with <see cref="T:CommunityToolkit.Mvvm.ComponentModel.ObservablePropertyAttribute"/>.
+            </summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs.Id">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instance for all "Id" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs.Name">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instance for all "Name" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs.Price">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instance for all "Price" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs.ImageUrl">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instance for all "ImageUrl" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs.EventStatus">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instance for all "EventStatus" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs.Date">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instance for all "Date" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs.Description">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instance for all "Description" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs.Artists">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instance for all "Artists" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs.Category">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instance for all "Category" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs.ShowLargerImage">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instance for all "ShowLargerImage" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs.ShowThumbnailImage">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instance for all "ShowThumbnailImage" generated properties.</summary>
+        </member>
+        <member name="T:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs">
+            <summary>
+            A helper type providing cached, reusable <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instances
+            for all properties generated with <see cref="T:CommunityToolkit.Mvvm.ComponentModel.ObservablePropertyAttribute"/>.
+            </summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs.Id">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instance for all "Id" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs.Name">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instance for all "Name" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs.Price">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instance for all "Price" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs.ImageUrl">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instance for all "ImageUrl" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs.EventStatus">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instance for all "EventStatus" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs.Date">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instance for all "Date" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs.Description">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instance for all "Description" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs.Artists">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instance for all "Artists" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs.Category">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instance for all "Category" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs.ShowLargerImage">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instance for all "ShowLargerImage" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs.ShowThumbnailImage">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instance for all "ShowThumbnailImage" generated properties.</summary>
+        </member>
     </members>
 </doc>

@@ -51819,7 +51819,7 @@ runtime_version:
 .section __TEXT, __const
 	.align 2
 assembly_guid:
-	.asciz "A882A98E-DCA2-47B2-9CE3-8421C52BD205"
+	.asciz "CF66E2FF-7FDC-4BC1-8D26-2A6779279439"
 .section __TEXT, __const
 	.align 2
 assembly_name:
@@ -51909,14 +51909,14 @@ _mono_aot_file_info:
 	.quad unbox_trampoline_addresses
 
 	.long 296,296,3928,192,195,209,208,352
-	.long 374417919,0,45368,128,8,8,7,9
-	.long 8388607,16384,4,24,66592,0,0,0
-	.long 0,21216,5552,18944,0,18424,3880,504
-	.long 18016,0,21096,21208,288,0,0,0
+	.long 374417919,0,45472,128,8,8,7,9
+	.long 8388607,16384,4,24,66704,0,0,0
+	.long 0,21224,5552,18952,0,18432,3880,504
+	.long 18024,0,21104,21216,288,0,0,0
 	.long 0,0,0,296,296,296,296,296
 	.long 296,0,0,0,0,0,0,24
 	.long 24,60,24,0,24
-	.byte 178,124,75,60,252,205,109,172,73,215,129,155,110,255,245,213
+	.byte 248,48,241,176,126,222,75,140,40,150,253,39,87,176,76,100
 	.globl _mono_aot_module_System_Private_CoreLib_info
 	.align 3
 _mono_aot_module_System_Private_CoreLib_info:
