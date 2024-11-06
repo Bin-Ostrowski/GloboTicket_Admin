@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("GloboTicke_Admin3")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0+f24205edbda304cda84e5832ce40a5d4f73d08d1")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0+639e98a132716099684db3152d0aaf78aa9dca41")]
 [assembly: System.Reflection.AssemblyProductAttribute("GloboTicke_Admin3")]
 [assembly: System.Reflection.AssemblyTitleAttribute("GloboTicke_Admin3")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

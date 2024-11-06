@@ -2,10 +2,10 @@
   "version": 3,
   "targets": {
     "net8.0-android34.0": {
-      "CommunityToolkit.Maui/9.1.0": {
+      "CommunityToolkit.Maui/9.0.3": {
         "type": "package",
         "dependencies": {
-          "CommunityToolkit.Maui.Core": "9.1.0",
+          "CommunityToolkit.Maui.Core": "9.0.3",
           "Microsoft.Maui.Controls": "8.0.71"
         },
         "compile": {
@@ -19,7 +19,7 @@
           }
         }
       },
-      "CommunityToolkit.Maui.Core/9.1.0": {
+      "CommunityToolkit.Maui.Core/9.0.3": {
         "type": "package",
         "dependencies": {
           "Microsoft.Maui.Core": "8.0.71",
@@ -2768,10 +2768,10 @@
       }
     },
     "net8.0-android34.0/iossimulator-arm64": {
-      "CommunityToolkit.Maui/9.1.0": {
+      "CommunityToolkit.Maui/9.0.3": {
         "type": "package",
         "dependencies": {
-          "CommunityToolkit.Maui.Core": "9.1.0",
+          "CommunityToolkit.Maui.Core": "9.0.3",
           "Microsoft.Maui.Controls": "8.0.71"
         },
         "compile": {
@@ -2785,7 +2785,7 @@
           }
         }
       },
-      "CommunityToolkit.Maui.Core/9.1.0": {
+      "CommunityToolkit.Maui.Core/9.0.3": {
         "type": "package",
         "dependencies": {
           "Microsoft.Maui.Core": "8.0.71",
@@ -5534,36 +5534,36 @@
       }
     },
     "net8.0-ios18.0": {
-      "CommunityToolkit.Maui/9.1.0": {
+      "CommunityToolkit.Maui/9.0.3": {
         "type": "package",
         "dependencies": {
-          "CommunityToolkit.Maui.Core": "9.1.0",
+          "CommunityToolkit.Maui.Core": "9.0.3",
           "Microsoft.Maui.Controls": "8.0.71"
         },
         "compile": {
-          "lib/net8.0-ios18.0/CommunityToolkit.Maui.dll": {
+          "lib/net8.0-ios17.5/CommunityToolkit.Maui.dll": {
             "related": ".xml"
           }
         },
         "runtime": {
-          "lib/net8.0-ios18.0/CommunityToolkit.Maui.dll": {
+          "lib/net8.0-ios17.5/CommunityToolkit.Maui.dll": {
             "related": ".xml"
           }
         }
       },
-      "CommunityToolkit.Maui.Core/9.1.0": {
+      "CommunityToolkit.Maui.Core/9.0.3": {
         "type": "package",
         "dependencies": {
           "Microsoft.Maui.Core": "8.0.71",
           "Microsoft.Maui.Essentials": "8.0.71"
         },
         "compile": {
-          "lib/net8.0-ios18.0/CommunityToolkit.Maui.Core.dll": {
+          "lib/net8.0-ios17.5/CommunityToolkit.Maui.Core.dll": {
             "related": ".xml"
           }
         },
         "runtime": {
-          "lib/net8.0-ios18.0/CommunityToolkit.Maui.Core.dll": {
+          "lib/net8.0-ios17.5/CommunityToolkit.Maui.Core.dll": {
             "related": ".xml"
           }
         }
@@ -6083,36 +6083,36 @@
       }
     },
     "net8.0-ios18.0/iossimulator-arm64": {
-      "CommunityToolkit.Maui/9.1.0": {
+      "CommunityToolkit.Maui/9.0.3": {
         "type": "package",
         "dependencies": {
-          "CommunityToolkit.Maui.Core": "9.1.0",
+          "CommunityToolkit.Maui.Core": "9.0.3",
           "Microsoft.Maui.Controls": "8.0.71"
         },
         "compile": {
-          "lib/net8.0-ios18.0/CommunityToolkit.Maui.dll": {
+          "lib/net8.0-ios17.5/CommunityToolkit.Maui.dll": {
             "related": ".xml"
           }
         },
         "runtime": {
-          "lib/net8.0-ios18.0/CommunityToolkit.Maui.dll": {
+          "lib/net8.0-ios17.5/CommunityToolkit.Maui.dll": {
             "related": ".xml"
           }
         }
       },
-      "CommunityToolkit.Maui.Core/9.1.0": {
+      "CommunityToolkit.Maui.Core/9.0.3": {
         "type": "package",
         "dependencies": {
           "Microsoft.Maui.Core": "8.0.71",
           "Microsoft.Maui.Essentials": "8.0.71"
         },
         "compile": {
-          "lib/net8.0-ios18.0/CommunityToolkit.Maui.Core.dll": {
+          "lib/net8.0-ios17.5/CommunityToolkit.Maui.Core.dll": {
             "related": ".xml"
           }
         },
         "runtime": {
-          "lib/net8.0-ios18.0/CommunityToolkit.Maui.Core.dll": {
+          "lib/net8.0-ios17.5/CommunityToolkit.Maui.Core.dll": {
             "related": ".xml"
           }
         }
@@ -6632,36 +6632,36 @@
       }
     },
     "net8.0-maccatalyst18.0": {
-      "CommunityToolkit.Maui/9.1.0": {
+      "CommunityToolkit.Maui/9.0.3": {
         "type": "package",
         "dependencies": {
-          "CommunityToolkit.Maui.Core": "9.1.0",
+          "CommunityToolkit.Maui.Core": "9.0.3",
           "Microsoft.Maui.Controls": "8.0.71"
         },
         "compile": {
-          "lib/net8.0-maccatalyst18.0/CommunityToolkit.Maui.dll": {
+          "lib/net8.0-maccatalyst17.5/CommunityToolkit.Maui.dll": {
             "related": ".xml"
           }
         },
         "runtime": {
-          "lib/net8.0-maccatalyst18.0/CommunityToolkit.Maui.dll": {
+          "lib/net8.0-maccatalyst17.5/CommunityToolkit.Maui.dll": {
             "related": ".xml"
           }
         }
       },
-      "CommunityToolkit.Maui.Core/9.1.0": {
+      "CommunityToolkit.Maui.Core/9.0.3": {
         "type": "package",
         "dependencies": {
           "Microsoft.Maui.Core": "8.0.71",
           "Microsoft.Maui.Essentials": "8.0.71"
         },
         "compile": {
-          "lib/net8.0-maccatalyst18.0/CommunityToolkit.Maui.Core.dll": {
+          "lib/net8.0-maccatalyst17.5/CommunityToolkit.Maui.Core.dll": {
             "related": ".xml"
           }
         },
         "runtime": {
-          "lib/net8.0-maccatalyst18.0/CommunityToolkit.Maui.Core.dll": {
+          "lib/net8.0-maccatalyst17.5/CommunityToolkit.Maui.Core.dll": {
             "related": ".xml"
           }
         }
@@ -7181,36 +7181,36 @@
       }
     },
     "net8.0-maccatalyst18.0/iossimulator-arm64": {
-      "CommunityToolkit.Maui/9.1.0": {
+      "CommunityToolkit.Maui/9.0.3": {
         "type": "package",
         "dependencies": {
-          "CommunityToolkit.Maui.Core": "9.1.0",
+          "CommunityToolkit.Maui.Core": "9.0.3",
           "Microsoft.Maui.Controls": "8.0.71"
         },
         "compile": {
-          "lib/net8.0-maccatalyst18.0/CommunityToolkit.Maui.dll": {
+          "lib/net8.0-maccatalyst17.5/CommunityToolkit.Maui.dll": {
             "related": ".xml"
           }
         },
         "runtime": {
-          "lib/net8.0-maccatalyst18.0/CommunityToolkit.Maui.dll": {
+          "lib/net8.0-maccatalyst17.5/CommunityToolkit.Maui.dll": {
             "related": ".xml"
           }
         }
       },
-      "CommunityToolkit.Maui.Core/9.1.0": {
+      "CommunityToolkit.Maui.Core/9.0.3": {
         "type": "package",
         "dependencies": {
           "Microsoft.Maui.Core": "8.0.71",
           "Microsoft.Maui.Essentials": "8.0.71"
         },
         "compile": {
-          "lib/net8.0-maccatalyst18.0/CommunityToolkit.Maui.Core.dll": {
+          "lib/net8.0-maccatalyst17.5/CommunityToolkit.Maui.Core.dll": {
             "related": ".xml"
           }
         },
         "runtime": {
-          "lib/net8.0-maccatalyst18.0/CommunityToolkit.Maui.Core.dll": {
+          "lib/net8.0-maccatalyst17.5/CommunityToolkit.Maui.Core.dll": {
             "related": ".xml"
           }
         }
@@ -7731,10 +7731,10 @@
     }
   },
   "libraries": {
-    "CommunityToolkit.Maui/9.1.0": {
-      "sha512": "lIFWonOHrHSMLrU8Oc58cmA+oPCi5F/EmD4/Zqc2yryv8upH0tdaeU+SloG1zEFWjNlVeOT9wUfPk3qPMI0iOQ==",
+    "CommunityToolkit.Maui/9.0.3": {
+      "sha512": "6X8T1AjI3ed+GUKgugJH5btNiPPoDJAxYO8HAm2wcWl1izmjVTfGoJQGj5A/ry2aa4+QNAWPxTn/mIpjukykYg==",
       "type": "package",
-      "path": "communitytoolkit.maui/9.1.0",
+      "path": "communitytoolkit.maui/9.0.3",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -7742,15 +7742,15 @@
         "analyzers/dotnet/cs/CommunityToolkit.Maui.Analyzers.CodeFixes.dll",
         "analyzers/dotnet/cs/CommunityToolkit.Maui.Analyzers.dll",
         "analyzers/dotnet/cs/CommunityToolkit.Maui.SourceGenerators.dll",
-        "communitytoolkit.maui.9.1.0.nupkg.sha512",
+        "communitytoolkit.maui.9.0.3.nupkg.sha512",
         "communitytoolkit.maui.nuspec",
         "icon.png",
         "lib/net8.0-android34.0/CommunityToolkit.Maui.dll",
         "lib/net8.0-android34.0/CommunityToolkit.Maui.xml",
-        "lib/net8.0-ios18.0/CommunityToolkit.Maui.dll",
-        "lib/net8.0-ios18.0/CommunityToolkit.Maui.xml",
-        "lib/net8.0-maccatalyst18.0/CommunityToolkit.Maui.dll",
-        "lib/net8.0-maccatalyst18.0/CommunityToolkit.Maui.xml",
+        "lib/net8.0-ios17.5/CommunityToolkit.Maui.dll",
+        "lib/net8.0-ios17.5/CommunityToolkit.Maui.xml",
+        "lib/net8.0-maccatalyst17.5/CommunityToolkit.Maui.dll",
+        "lib/net8.0-maccatalyst17.5/CommunityToolkit.Maui.xml",
         "lib/net8.0-tizen8.0/CommunityToolkit.Maui.dll",
         "lib/net8.0-tizen8.0/CommunityToolkit.Maui.xml",
         "lib/net8.0-windows10.0.19041/CommunityToolkit.Maui.dll",
@@ -7759,23 +7759,23 @@
         "lib/net8.0/CommunityToolkit.Maui.xml"
       ]
     },
-    "CommunityToolkit.Maui.Core/9.1.0": {
-      "sha512": "aPVPB06syj/nrSkmiFwtFQkOGE2KkUYYjp8VbdyxhafcdSZgehEhQUtJ/R3ogBvL8f3a7bjj0ercHKuUEHrkcQ==",
+    "CommunityToolkit.Maui.Core/9.0.3": {
+      "sha512": "NiMX2+m3dzNN1H/tW+aFxh1Hcgj5AKUm4Rf6mbhGKaYBe4J6asuuP8Qx1TwYS4HEKLFMvn0LIk1MFSD4TqqgYQ==",
       "type": "package",
-      "path": "communitytoolkit.maui.core/9.1.0",
+      "path": "communitytoolkit.maui.core/9.0.3",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
         "ReadMe.txt",
-        "communitytoolkit.maui.core.9.1.0.nupkg.sha512",
+        "communitytoolkit.maui.core.9.0.3.nupkg.sha512",
         "communitytoolkit.maui.core.nuspec",
         "icon.png",
         "lib/net8.0-android34.0/CommunityToolkit.Maui.Core.dll",
         "lib/net8.0-android34.0/CommunityToolkit.Maui.Core.xml",
-        "lib/net8.0-ios18.0/CommunityToolkit.Maui.Core.dll",
-        "lib/net8.0-ios18.0/CommunityToolkit.Maui.Core.xml",
-        "lib/net8.0-maccatalyst18.0/CommunityToolkit.Maui.Core.dll",
-        "lib/net8.0-maccatalyst18.0/CommunityToolkit.Maui.Core.xml",
+        "lib/net8.0-ios17.5/CommunityToolkit.Maui.Core.dll",
+        "lib/net8.0-ios17.5/CommunityToolkit.Maui.Core.xml",
+        "lib/net8.0-maccatalyst17.5/CommunityToolkit.Maui.Core.dll",
+        "lib/net8.0-maccatalyst17.5/CommunityToolkit.Maui.Core.xml",
         "lib/net8.0-tizen8.0/CommunityToolkit.Maui.Core.dll",
         "lib/net8.0-tizen8.0/CommunityToolkit.Maui.Core.xml",
         "lib/net8.0-windows10.0.19041/CommunityToolkit.Maui.Core.dll",
@@ -11813,7 +11813,7 @@
   },
   "projectFileDependencyGroups": {
     "net8.0-android34.0": [
-      "CommunityToolkit.Maui >= 9.1.0",
+      "CommunityToolkit.Maui >= 9.0.3",
       "CommunityToolkit.Maui.Maps >= 2.0.3",
       "CommunityToolkit.Maui.Markup >= 4.1.0",
       "CommunityToolkit.Maui.MediaElement >= 4.1.2",
@@ -11824,7 +11824,7 @@
       "Microsoft.NET.ILLink.Tasks >= 8.0.4"
     ],
     "net8.0-ios18.0": [
-      "CommunityToolkit.Maui >= 9.1.0",
+      "CommunityToolkit.Maui >= 9.0.3",
       "CommunityToolkit.Maui.Maps >= 2.0.3",
       "CommunityToolkit.Maui.Markup >= 4.1.0",
       "CommunityToolkit.Maui.MediaElement >= 4.1.2",
@@ -11835,7 +11835,7 @@
       "Microsoft.NET.ILLink.Tasks >= 8.0.4"
     ],
     "net8.0-maccatalyst18.0": [
-      "CommunityToolkit.Maui >= 9.1.0",
+      "CommunityToolkit.Maui >= 9.0.3",
       "CommunityToolkit.Maui.Maps >= 2.0.3",
       "CommunityToolkit.Maui.Markup >= 4.1.0",
       "CommunityToolkit.Maui.MediaElement >= 4.1.2",
@@ -11903,7 +11903,7 @@
         "dependencies": {
           "CommunityToolkit.Maui": {
             "target": "Package",
-            "version": "[9.1.0, )"
+            "version": "[9.0.3, )"
           },
           "CommunityToolkit.Maui.Maps": {
             "target": "Package",
@@ -11966,7 +11966,7 @@
         "dependencies": {
           "CommunityToolkit.Maui": {
             "target": "Package",
-            "version": "[9.1.0, )"
+            "version": "[9.0.3, )"
           },
           "CommunityToolkit.Maui.Maps": {
             "target": "Package",
@@ -12029,7 +12029,7 @@
         "dependencies": {
           "CommunityToolkit.Maui": {
             "target": "Package",
-            "version": "[9.1.0, )"
+            "version": "[9.0.3, )"
           },
           "CommunityToolkit.Maui.Maps": {
             "target": "Package",
