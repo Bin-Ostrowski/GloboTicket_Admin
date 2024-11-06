@@ -74,6 +74,7 @@
 /Users/rostrowski/GitHub/GloboTicket_Admin/GloboTicke_Admin3/GloboTicke_Admin3/bin/Debug/net8.0-ios/iossimulator-arm64/publish/../GloboTicke_Admin3.app/System.Linq.dll
 /Users/rostrowski/GitHub/GloboTicket_Admin/GloboTicke_Admin3/GloboTicke_Admin3/bin/Debug/net8.0-ios/iossimulator-arm64/publish/../GloboTicke_Admin3.app/System.Memory.dll
 /Users/rostrowski/GitHub/GloboTicket_Admin/GloboTicke_Admin3/GloboTicke_Admin3/bin/Debug/net8.0-ios/iossimulator-arm64/publish/../GloboTicke_Admin3.app/System.Net.Http.dll
+/Users/rostrowski/GitHub/GloboTicket_Admin/GloboTicke_Admin3/GloboTicke_Admin3/bin/Debug/net8.0-ios/iossimulator-arm64/publish/../GloboTicke_Admin3.app/System.Net.Mail.dll
 /Users/rostrowski/GitHub/GloboTicket_Admin/GloboTicke_Admin3/GloboTicke_Admin3/bin/Debug/net8.0-ios/iossimulator-arm64/publish/../GloboTicke_Admin3.app/System.Net.Primitives.dll
 /Users/rostrowski/GitHub/GloboTicket_Admin/GloboTicke_Admin3/GloboTicke_Admin3/bin/Debug/net8.0-ios/iossimulator-arm64/publish/../GloboTicke_Admin3.app/System.Net.Requests.dll
 /Users/rostrowski/GitHub/GloboTicket_Admin/GloboTicke_Admin3/GloboTicke_Admin3/bin/Debug/net8.0-ios/iossimulator-arm64/publish/../GloboTicke_Admin3.app/System.Net.Security.dll

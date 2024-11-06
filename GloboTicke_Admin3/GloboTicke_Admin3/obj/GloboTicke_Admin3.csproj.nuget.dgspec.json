@@ -58,7 +58,7 @@
           "dependencies": {
             "CommunityToolkit.Maui": {
               "target": "Package",
-              "version": "[9.1.0, )"
+              "version": "[9.0.3, )"
             },
             "CommunityToolkit.Maui.Maps": {
               "target": "Package",
@@ -121,7 +121,7 @@
           "dependencies": {
             "CommunityToolkit.Maui": {
               "target": "Package",
-              "version": "[9.1.0, )"
+              "version": "[9.0.3, )"
             },
             "CommunityToolkit.Maui.Maps": {
               "target": "Package",
@@ -184,7 +184,7 @@
           "dependencies": {
             "CommunityToolkit.Maui": {
               "target": "Package",
-              "version": "[9.1.0, )"
+              "version": "[9.0.3, )"
             },
             "CommunityToolkit.Maui.Maps": {
               "target": "Package",

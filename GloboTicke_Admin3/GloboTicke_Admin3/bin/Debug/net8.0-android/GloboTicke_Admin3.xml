@@ -53,6 +53,39 @@
         <member name="P:GloboTicke_Admin3.ViewModels.EventDetailViewModel.CancelEventCommand">
             <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IRelayCommand"/> instance wrapping <see cref="M:GloboTicke_Admin3.ViewModels.EventDetailViewModel.CancelEvent"/>.</summary>
         </member>
+        <member name="T:GloboTicke_Admin3.ViewModels.EventListItemViewModel">
+            <inheritdoc/>
+        </member>
+        <member name="P:GloboTicke_Admin3.ViewModels.EventListItemViewModel.Id">
+            <inheritdoc cref="F:GloboTicke_Admin3.ViewModels.EventListItemViewModel._id"/>
+        </member>
+        <member name="P:GloboTicke_Admin3.ViewModels.EventListItemViewModel.Name">
+            <inheritdoc cref="F:GloboTicke_Admin3.ViewModels.EventListItemViewModel._name"/>
+        </member>
+        <member name="P:GloboTicke_Admin3.ViewModels.EventListItemViewModel.Price">
+            <inheritdoc cref="F:GloboTicke_Admin3.ViewModels.EventListItemViewModel._price"/>
+        </member>
+        <member name="P:GloboTicke_Admin3.ViewModels.EventListItemViewModel.ImageUrl">
+            <inheritdoc cref="F:GloboTicke_Admin3.ViewModels.EventListItemViewModel._imageUrl"/>
+        </member>
+        <member name="P:GloboTicke_Admin3.ViewModels.EventListItemViewModel.EventStatus">
+            <inheritdoc cref="F:GloboTicke_Admin3.ViewModels.EventListItemViewModel._eventStatus"/>
+        </member>
+        <member name="P:GloboTicke_Admin3.ViewModels.EventListItemViewModel.Date">
+            <inheritdoc cref="F:GloboTicke_Admin3.ViewModels.EventListItemViewModel._date"/>
+        </member>
+        <member name="P:GloboTicke_Admin3.ViewModels.EventListItemViewModel.Artists">
+            <inheritdoc cref="F:GloboTicke_Admin3.ViewModels.EventListItemViewModel._artists"/>
+        </member>
+        <member name="P:GloboTicke_Admin3.ViewModels.EventListItemViewModel.Category">
+            <inheritdoc cref="F:GloboTicke_Admin3.ViewModels.EventListItemViewModel._category"/>
+        </member>
+        <member name="T:GloboTicke_Admin3.ViewModels.EventListOverviewViewModel">
+            <inheritdoc/>
+        </member>
+        <member name="P:GloboTicke_Admin3.ViewModels.EventListOverviewViewModel.Events">
+            <inheritdoc cref="F:GloboTicke_Admin3.ViewModels.EventListOverviewViewModel._events"/>
+        </member>
         <member name="T:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs">
             <summary>
             A helper type providing cached, reusable <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instances
@@ -92,6 +125,9 @@
         <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs.ShowThumbnailImage">
             <summary>The cached <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instance for all "ShowThumbnailImage" generated properties.</summary>
         </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs.Events">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instance for all "Events" generated properties.</summary>
+        </member>
         <member name="T:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs">
             <summary>
             A helper type providing cached, reusable <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instances
@@ -130,6 +166,9 @@
         </member>
         <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs.ShowThumbnailImage">
             <summary>The cached <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instance for all "ShowThumbnailImage" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs.Events">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instance for all "Events" generated properties.</summary>
         </member>
     </members>
 </doc>

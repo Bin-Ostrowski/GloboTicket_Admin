@@ -70,7 +70,13 @@
     <_LinkerFrameworks Include="Security">
       <IsWeak>false</IsWeak>
     </_LinkerFrameworks>
+    <_LinkerFrameworks Include="Speech">
+      <IsWeak>false</IsWeak>
+    </_LinkerFrameworks>
     <_LinkerFrameworks Include="UIKit">
+      <IsWeak>false</IsWeak>
+    </_LinkerFrameworks>
+    <_LinkerFrameworks Include="UserNotifications">
       <IsWeak>false</IsWeak>
     </_LinkerFrameworks>
     <_LinkerFrameworks Include="WebKit">
@@ -80,6 +86,9 @@
       <IsWeak>true</IsWeak>
     </_LinkerFrameworks>
     <_LinkerFrameworks Include="LinkPresentation">
+      <IsWeak>true</IsWeak>
+    </_LinkerFrameworks>
+    <_LinkerFrameworks Include="UniformTypeIdentifiers">
       <IsWeak>true</IsWeak>
     </_LinkerFrameworks>
     <_LinkerFrameworks Include="GSS">

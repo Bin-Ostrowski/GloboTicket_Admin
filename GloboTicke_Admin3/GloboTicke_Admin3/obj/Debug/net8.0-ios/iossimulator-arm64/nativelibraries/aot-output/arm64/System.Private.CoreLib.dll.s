@@ -950,7 +950,7 @@ ldr x0, [x16, #88]
 bl _p_4
 .word 0xaa0003fa
 .word 0xb5fffd20
-.word 0xd2801f00
+.word 0xd2801f20
 .word 0xf2a04000
 bl _p_5
 bl _p_6
@@ -1061,7 +1061,7 @@ bl _p_4
 .word 0xaa1a03e0
 bl _p_8
 .word 0x17ffffed
-.word 0xd2801f00
+.word 0xd2801f20
 .word 0xf2a04000
 bl _p_5
 bl _p_6
@@ -1148,7 +1148,7 @@ bl _p_9
 .word 0x910003bf
 .word 0xa8c57bfd
 .word 0xd65f03c0
-.word 0xd2801f00
+.word 0xd2801f20
 .word 0xf2a04000
 bl _p_5
 bl _p_6
@@ -1163,17 +1163,17 @@ bl _p_6
 bl _p_10
 .word 0xaa0003fa
 .word 0xb5fffbe0
-.word 0xd2801f00
+.word 0xd2801f20
 .word 0xf2a04000
 bl _p_5
 bl _p_6
 .word 0xeb1f035f
 .word 0x54fffd8a
-.word 0xd2801f20
+.word 0xd2801f40
 .word 0xf2a04000
 bl _p_5
 bl _p_6
-.word 0xd2801f00
+.word 0xd2801f20
 .word 0xaa1103e1
 bl _p_11
 
@@ -1290,7 +1290,7 @@ ldr x0, [x16, #192]
 .word 0x910003bf
 .word 0xa8c57bfd
 .word 0xd65f03c0
-.word 0xd2801f00
+.word 0xd2801f20
 .word 0xf2a04000
 bl _p_5
 bl _p_6
@@ -1309,17 +1309,17 @@ bl _p_10
 .word 0xaa1a03e0
 bl _p_8
 .word 0x17ffffe6
-.word 0xd2801f00
+.word 0xd2801f20
 .word 0xf2a04000
 bl _p_5
 bl _p_6
 .word 0xeb1f035f
 .word 0x54fffd0a
-.word 0xd2801f20
+.word 0xd2801f40
 .word 0xf2a04000
 bl _p_5
 bl _p_6
-.word 0xd2801f00
+.word 0xd2801f20
 .word 0xaa1103e1
 bl _p_11
 
@@ -1382,7 +1382,7 @@ ldr x0, [x16, #88]
 .word 0x910003bf
 .word 0xa8c47bfd
 .word 0xd65f03c0
-.word 0xd2801f00
+.word 0xd2801f20
 .word 0xf2a04000
 bl _p_5
 bl _p_6
@@ -1486,7 +1486,7 @@ ldr x0, [x16, #192]
 .word 0x910003bf
 .word 0xa8c47bfd
 .word 0xd65f03c0
-.word 0xd2801f00
+.word 0xd2801f20
 .word 0xf2a04000
 bl _p_5
 bl _p_6
@@ -1584,7 +1584,7 @@ ldr x0, [x16, #88]
 bl _p_13
 .word 0xaa0003fa
 .word 0xb5fffc80
-.word 0xd2801f00
+.word 0xd2801f20
 .word 0xf2a04000
 bl _p_5
 bl _p_6
@@ -1703,7 +1703,7 @@ bl _p_13
 .word 0xaa1a03e0
 bl _p_8
 .word 0x17ffffeb
-.word 0xd2801f00
+.word 0xd2801f20
 .word 0xf2a04000
 bl _p_5
 bl _p_6
@@ -51819,7 +51819,7 @@ runtime_version:
 .section __TEXT, __const
 	.align 2
 assembly_guid:
-	.asciz "CF66E2FF-7FDC-4BC1-8D26-2A6779279439"
+	.asciz "1C680267-E00C-4840-840A-50EEBD9EC2E8"
 .section __TEXT, __const
 	.align 2
 assembly_name:
@@ -51909,14 +51909,14 @@ _mono_aot_file_info:
 	.quad unbox_trampoline_addresses
 
 	.long 296,296,3928,192,195,209,208,352
-	.long 374417919,0,45472,128,8,8,7,9
-	.long 8388607,16384,4,24,66704,0,0,0
-	.long 0,21224,5552,18952,0,18432,3880,504
-	.long 18024,0,21104,21216,288,0,0,0
+	.long 374417919,0,45733,128,8,8,7,9
+	.long 8388607,16384,4,24,66992,0,0,0
+	.long 0,21248,5552,18960,0,18440,3880,504
+	.long 18032,0,21128,21240,288,0,0,0
 	.long 0,0,0,296,296,296,296,296
 	.long 296,0,0,0,0,0,0,24
 	.long 24,60,24,0,24
-	.byte 227,90,40,250,152,238,72,100,39,80,122,37,160,72,109,203
+	.byte 141,36,35,169,85,79,203,187,208,170,172,203,195,205,79,20
 	.globl _mono_aot_module_System_Private_CoreLib_info
 	.align 3
 _mono_aot_module_System_Private_CoreLib_info:
